@@ -81,15 +81,9 @@ class ColorHero extends StatelessWidget {
       height: height,
       child: Hero(
         tag: color,
-        child: Material(
-          color: Colors.transparent,
-          child: InkWell(
-            onTap: onTap,
-            child: Container(
-              width: 100.0,
-              color: color,
-            ),
-          ),
+        child: Container(
+          width: 100.0,
+          color: color,
         ),
       ),
     );
